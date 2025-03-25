@@ -2,9 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "CATHUB",
-         Animation = "Subcakevn"
-         },
+           Animation = "Subcakevn"
+           },
         Key = {
         KeySystem = true,
         Title = "CAT HUB",
