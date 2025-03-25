@@ -3,14 +3,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
        local Window = MakeWindow({
          Hub = {
          Title = "CATHUB",
-         Animation = "Script Tổng Hợp Ver1"
+         Animation = "Subcakevn"
          },
         Key = {
-        KeySystem = false,
-        Title = "Script Tổng Hợp",
+        KeySystem = true,
+        Title = "CAT HUB",
         Description = "",
         KeyLink = "",
-        Keys = {"VanThan"},
+        Keys = {"CATHUB"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Đang Chạy Kịch Bản",
@@ -19,15 +19,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
       }
     }
   })
-
-MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=89284864928775",
-       Size = {40, 40},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vinh12eqweaws/vvvs/refs/heads/main/caz"))()
 local Window = redzlib:MakeWindow({
